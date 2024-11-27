@@ -1,0 +1,46 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.db
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+media
+staticfiles
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# PostgreSQL files
+*.sql
+*.psql
+*.pgdmp
+*.bak
+
+# Docker
+*.dockerfile
+.dockerignore
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Django migrations
+migrations/
+
+# Test and coverage
+*.coveragerc
+.coverage
+nosetests.xml
+coverage.xml
+*.hypothesis/
